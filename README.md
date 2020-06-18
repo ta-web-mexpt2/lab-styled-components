@@ -70,7 +70,7 @@ export const theme_one = {
 
 In this iteration, create the menu of Twitter.
 
-<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592499651/Screen_Shot_2020-06-18_at_12.00.16_sgrjxo.png" width="100px">
+<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592499651/Screen_Shot_2020-06-18_at_12.00.16_sgrjxo.png" width="300px">
 
 A post should have the following attributes:
 
@@ -82,14 +82,14 @@ A post should have the following attributes:
 In this iteration, create the news and who follow of Twitter.
 
 
-<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592500145/Screen_Shot_2020-06-18_at_12.08.48_zxgfr8.png" width="300px">
+<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592500145/Screen_Shot_2020-06-18_at_12.08.48_zxgfr8.png" width="500px">
 
 
 
 ### Iteration 4 | Change Theme
 
 
-<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592487676/Screen_Shot_2020-06-18_at_8.19.02_qqv2sp.png" width="300px">
+<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592487676/Screen_Shot_2020-06-18_at_8.19.02_qqv2sp.png" width="500px">
 
 In this interaction, we will create a button to be able to change the theme and invert the colors
 
