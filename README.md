@@ -79,17 +79,17 @@ A post should have the following attributes:
 
 ### Iteration 3 | News
 
-In this iteration, create the news and who follow of Twitter.
+In this iteration, create the news and who follow of Twitter like this.
 
 
-<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592500145/Screen_Shot_2020-06-18_at_12.08.48_zxgfr8.png" width="500px">
+<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592500145/Screen_Shot_2020-06-18_at_12.08.48_zxgfr8.png" width="600px">
 
 
 
 ### Iteration 4 | Change Theme
 
 
-<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592487676/Screen_Shot_2020-06-18_at_8.19.02_qqv2sp.png" width="500px">
+<img src="https://res.cloudinary.com/dhgfid3ej/image/upload/v1592487676/Screen_Shot_2020-06-18_at_8.19.02_qqv2sp.png" width="600px">
 
 In this interaction, we will create a button to be able to change the theme and invert the colors
 
