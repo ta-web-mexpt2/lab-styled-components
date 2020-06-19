@@ -2,6 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// how to import ionicons
+// import LogoNodejs from 'react-ionicons/lib/LogoNodejs'
+
 function App() {
   return (
     <div className="App">
