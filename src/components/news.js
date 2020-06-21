@@ -1,9 +1,9 @@
 import React from "react"
-import styled from "styled-components"
+import BackgroundDiv from "./BackgroundDiv"
 
 const News = () => {
     return (
-        <section className=" uk-position-center uk-margin-top">
+        <BackgroundDiv className=" uk-position-center uk-margin-top">
 
             <div className="uk-card uk-card-default uk-margin" style={{border: "solid 0.5px grey"}}>
                 <div className="uk-card-header">
@@ -22,7 +22,7 @@ const News = () => {
                 </div>
 
                 <div className="uk-card-body">
-                    <p className="uk-text-center">Hoy, fulanita trajo el mismo vestido que yoooooo. Wacaaaalaaaaaa es una naca</p>
+                    <p className="uk-text-center">Hoy, fulanita trajo el mismo vestido que yoooooo. Naca asqueroooosa</p>
                 </div>
             </div>
 
@@ -49,7 +49,7 @@ const News = () => {
             </div>
 
 
-        </section>
+        </BackgroundDiv>
 )}
 
 export default News

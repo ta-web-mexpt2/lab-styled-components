@@ -1,15 +1,20 @@
-import styled from "styled-components"
-import {theme_one, theme_two} from "../themes/themes"
+import styled, {css} from "styled-components"
 
-// el primary viene de theme_one y two
-
-const Button = styled.button `
+const Button = styled.button`
     font-size:1rem;
     border-radius:5px;
     margin:0 1rem;
-    background: transparent;
-    color: ${theme_one.primary};
-    border: 2px solid blue;
-    padding: 0.25rem 1rem; 
-`
+    background:transparent;
+    color:${props => props.theme.dark};
+    border:2px solid ${props => props.theme.primary};
+    padding:0.25rem 1rem;
+
+    ${props =>
+      props.primary && css`
+        background: ${props=> props.theme.light};
+        color: ${props=> props.theme.dark};;
+        border-color: ${props=> props.theme.primary};
+      `};
+`;
+
 export default Button

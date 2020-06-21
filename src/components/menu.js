@@ -1,10 +1,11 @@
 import React from "react"
-import styled from "styled-components"
 import Button from "./Button"
+import BackgroundDiv from "./BackgroundDiv"
 
 const Menu = () => {
     return (
-        <section className="
+        <BackgroundDiv 
+        className="
         uk-margin-large-left 
         uk-margin-large-top 
         uk-position-left 
@@ -22,9 +23,9 @@ const Menu = () => {
           <div className="uk-margin">  <span className="uk-margin-right"                          uk-icon="icon: user">      </span>  <strong style={{color:"black"}}>Perfil         </strong><br/>           </div> 
           <div className="uk-margin">  <span className="uk-margin-right"                          uk-icon="icon: more">      </span>  <strong style={{color:"black"}}>Más opciones   </strong><br/>           </div>  
 
-          <Button className="uk-button uk-button-primary uk-border-pill"> Twittear</Button>
+          <Button primary dark  className="uk-button uk-button-primary uk-border-pill"> Twittear</Button>
 
-        </section>
+        </BackgroundDiv>
 )}
 
 export default Menu
