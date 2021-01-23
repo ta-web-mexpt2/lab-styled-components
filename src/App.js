@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Layout } from 'antd';
+import Menu from './components/menu';
 import './App.css';
+import Who from "./components/who2follow";
+import News from "./components/news"
 
-function App() {
+const {Sider, Content} = Layout 
+
+function Site() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id ="body">
+      <Layout className="LayoutSider1">
+      <Sider className="Sider">
+        <Menu/>
+      </Sider>
+      </Layout>
+      <Layout className="LayoutMain">
+      <Content className="MainContent">
+        <News/>
+      </Content>
+      </Layout>
+      <Layout className="LayoutSider2">
+       <Sider className="Sider">
+           <Who/>
+        </Sider>
+       </Layout>
     </div>
   );
 }
 
-export default App;
+export default Site;
