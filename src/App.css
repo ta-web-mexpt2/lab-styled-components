@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +31,106 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Menu{
+  margin-bottom:5%;
+}
+
+.Sider button {
+  background-color: #00acee;
+  color:white;
+  border-radius: 25px;
+  border:none;
+  width:65%;
+  margin-left:5%;
+  margin-bottom: 5%;
+}
+
+.LayoutSider1 {
+  float:left;
+}
+
+.LayoutMain{
+  float:left;
+  width:65%;
+}
+
+.LayoutSider2 {
+  float:right;
+}
+
+.TwitterProfilePhoto{
+  width: 30%;
+  float:left;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+
+.Users {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+  padding-top:15%;
+}
+
+
+.Usertext1{
+  margin-top:2%;
+}
+
+.Usertext2{
+  margin-bottom: 15%;
+}
+
+.seguir{
+  margin-bottom:20%;
+}
+
+
+.Who2Follow p{
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+  padding-top: 5%;
+}
+
+.Who2Follow h1{
+  text-align: left;
+  padding-left: 5%;
+}
+
+.Horizontal p{
+  display:inline;
+  padding:0.5%;
+}
+.Horizontal p a{
+  color:white;
+}
+
+.Horizontal p a:hover{
+  color: #00acee;
+  border-bottom: 1px solid  #00acee;
+}
+
+.Horizontal{
+  width:100%;
+}
+
+.MenuItem{
+  margin:25%;
+}
+.Searchbox{
+  margin-left:-2%;
+}
+
+.UNtext{
+  text-align: left;
+  position: absolute;
+  top:58%;
+  width: 100%;
+  height: 100%;
+  padding-left: 2%;
 }
