@@ -1,14 +1,18 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Menu from "./components/Menu";
+import NavBar from "./components/NavBar";
+import Routes from "./Routes";
+import { withRouter } from "react-router-dom";
 
-function App() {
+import "./App.css";
+
+function AppStyledComponent() {
   return (
     <div className="App">
-      <Menu />
+      <NavBar />
+      <Routes />
     </div>
   );
 }
+const AppWithRouter = withRouter(AppStyledComponent);
 
-export default App;
+export default AppWithRouter;
