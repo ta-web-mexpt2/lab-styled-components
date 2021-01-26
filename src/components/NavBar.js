@@ -19,7 +19,7 @@ const Wrapper = styled.header`
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  width: 30vw;
+  width: 20vw;
   height: 100vh;
   padding: 10px;
 `;
@@ -27,15 +27,13 @@ const Wrapper = styled.header`
 const Nav = styled.nav`
   display: flex;
   flex-direction: column;
-  justify-content: left;
-  align-items: left;
 `;
 
 const NavtItem = styled.div`
-  display:flex; 
-  flex-direction: row; 
-  justify-content: left; 
-  align-items: center; 
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
   color: black;
   text-decoration: none;
   font-weight: bold;
@@ -50,6 +48,15 @@ const NavtItem = styled.div`
   }
 `;
 
+const MenuLink = styled(NavLink)`
+  text-decoration: none;
+  color: #180000;
+  padding: 0px 20px;
+  &:hover {
+    color: #1da1f2;
+  }
+`;
+
 const NavBar = () => {
   return (
     <Wrapper>
@@ -58,41 +65,39 @@ const NavBar = () => {
       </Link>
       <Nav>
         <NavtItem>
-          <MdHome />
-          <NavLink to="/">Home</NavLink>
+          <MdHome fontSize="35px" />
+          <MenuLink to="/">Home</MenuLink>
         </NavtItem>
         <NavtItem>
-          <IosGridOutline />
-          <NavLink to="/explore">Explore</NavLink>
+          <IosGridOutline fontSize="35px" />
+          <MenuLink to="/explore">Explore</MenuLink>
         </NavtItem>
         <NavtItem>
-          <MdNotificationsOutline />
-          <NavLink to="/notifications">Notifications</NavLink>
+          <MdNotificationsOutline ontSize="35px" />
+          <MenuLink to="/notifications">Notifications</MenuLink>
         </NavtItem>
         <NavtItem>
-          <IosMailOutline />
-          <NavLink to="/messages">Messages</NavLink>
+          <IosMailOutline fontSize="35px" />
+          <MenuLink to="/messages">Messages</MenuLink>
         </NavtItem>
         <NavtItem>
-          <IosBookmarkOutline />
-          <NavLink to="/bookmarks">Bookmarks</NavLink>
+          <IosBookmarkOutline fontSize="35px" />
+          <MenuLink to="/bookmarks">Bookmarks</MenuLink>
         </NavtItem>
         <NavtItem>
-          <IosListBoxOutline />
-          <NavLink to="/lists">Lists</NavLink>
+          <IosListBoxOutline fontSize="35px" />
+          <MenuLink to="/lists">Lists</MenuLink>
         </NavtItem>
         <NavtItem>
-          <MdPerson />
-          <NavLink to="/profile">Profile</NavLink>
+          <MdPerson fontSize="35px" />
+          <MenuLink to="/profile">Profile</MenuLink>
         </NavtItem>
         <NavtItem>
-          <IosMoreOutline />
-          <NavLink to="/more">More</NavLink>
-        </NavtItem>
-        <NavtItem>
-          <Button> Twittear</Button>
+          <IosMoreOutline fontSize="35px" />
+          <MenuLink to="/more">More</MenuLink>
         </NavtItem>
       </Nav>
+      <Button> Twittear</Button>
     </Wrapper>
   );
 };
