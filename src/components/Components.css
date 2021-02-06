@@ -1,0 +1,46 @@
+.divPpal {
+  display: flex;
+  flex-direction: row;
+}
+
+#divCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Who-to-follow-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 150px;
+}
+
+#content-text-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#p-bold {
+  font-weight: bold;
+}
+
+#content-text-div-two {
+  color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#p-to-follow {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
