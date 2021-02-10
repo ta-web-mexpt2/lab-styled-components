@@ -29,7 +29,7 @@ export default function NavComp() {
               <h6>Noticias . Hace una hora</h6>
               <h1>Tom Brady se convierte en deportista histórico tras ganar Super Bowl LV</h1></div>
           </div>
-       
+       jhjh
       
     </div>
   );
