@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +31,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Button {
+  background-color: #00acee;
+  color:white;
+  border-radius: 80px;
+  border:none;
+  padding: 200 px;
+  width: 170px;
+  height: 30px;
+}
+
+.Menu{
+  text-align: left;
+  margin: 100 px;
+  font-size: 1 rem;
+}
+
+.Navabar{
+  display:flex;
+  flex-direction: row;
+  margin-block-end:auto;
+  padding-right: 50px;
+
+}
+
+.Bloque2{
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+
+}
+
+.div1{
+  margin-left: 50px;
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.h6{
+  background-position-y: -100;
 }
