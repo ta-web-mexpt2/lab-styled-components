@@ -4,12 +4,9 @@
     display: flex;
     margin-top: 20px;
 }
-.menu-container{
-    width: 256px;
-}
 
 .follow-container{
-    width: 300px;
+    width: 300px ;
 }
 
 .news-container{

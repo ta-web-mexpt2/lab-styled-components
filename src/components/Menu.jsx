@@ -1,55 +1,41 @@
-import React, {Component} from 'react';
+import React from 'react'
 import { Menu, Button, Badge } from 'antd';
+
 import {
-  HomeOutlined,
-  NotificationOutlined,
-  MailOutlined,
-  TagOutlined,
-  FileTextOutlined,
-  UserOutlined,
-  MessageOutlined,
-} from '@ant-design/icons';
+  AiOutlineTwitter,
+  AiOutlineHome,
+  AiOutlineKey,
+  AiOutlineBell,
+  AiOutlineMessage,
+  AiOutlineBook,
+  AiOutlineUnorderedList,
+  AiOutlineUser,
+  AiOutlineEllipsis
+} from "react-icons/ai";
 
-import twLogo from '../assets/img/twitter.png'
 import '../App.css'
-export default class VerticalMenu extends Component{
+import styled from 'styled-components';
 
-  render() {
-    return (
-      <div className="menu-container">
-        <Menu
-          defaultSelectedKeys={['2']}
-          mode="inline"
-          theme="light"
-        >
-        <img src={twLogo} alt="Twitter logo" width="40px" />
-          <Menu.Item key="1" icon={<HomeOutlined />}>
-            Inicio
-          </Menu.Item>
-          <Menu.Item key="2" icon="#">
-            Explorar
-          </Menu.Item>
-          <Menu.Item key="3" icon={  <Badge dot><NotificationOutlined /> </Badge>}>
-            Notificaciones
-          </Menu.Item>
-          <Menu.Item key="4" icon={<MailOutlined />}>
-            Mensajes
-          </Menu.Item>
-          <Menu.Item key="5" icon={<TagOutlined />}>
-            Guardados
-          </Menu.Item>
-          <Menu.Item key="6" icon={<FileTextOutlined />}>
-            Listas
-          </Menu.Item>
-          <Menu.Item key="7" icon={<UserOutlined />}>
-            Perfil
-          </Menu.Item>
-          <Menu.Item key="8" icon={<MessageOutlined />}>
-            Más opciones
-          </Menu.Item>
-          <Button>Twittear</Button>
-        </Menu>
-      </div>
-    );
-  }
+const SideMenu = styled.div`
+      width: 216px;
+      margin-left: 20px;
+`;
+
+export default function MenuComp() {
+  return (
+    <SideMenu>
+      <Menu defaultSelectedKeys={["1"]} >
+        <Menu.Item  key="1" icon={<AiOutlineTwitter />}> </Menu.Item>
+        <Menu.Item  key="2" icon={<AiOutlineHome />}> Inicio</Menu.Item>
+        <Menu.Item  key="3" icon={<AiOutlineKey/>}> Explorar</Menu.Item>
+        <Menu.Item  key="4" icon={<Badge dot ><AiOutlineBell/> </Badge>}> Notificaciones</Menu.Item>
+        <Menu.Item  key="5" icon={<AiOutlineMessage/>}> Mensajes</Menu.Item>
+        <Menu.Item  key="6" icon={<AiOutlineBook />}> Guardados</Menu.Item>
+        <Menu.Item  key="7" icon={<AiOutlineUnorderedList />}> Listas</Menu.Item>
+        <Menu.Item  key="8" icon={<AiOutlineUser />}> Perfil</Menu.Item>
+        <Menu.Item  key="9" icon={<AiOutlineEllipsis/>}> Más opciones</Menu.Item>
+      </Menu>
+      <Button className="Button">Twittear</Button>
+      </SideMenu>
+  );
 }
